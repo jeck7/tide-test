@@ -25,7 +25,7 @@ public class TideTestApplicationTests {
     @Test
     public void shouldReturn200WhenSendingRequestToRoot() throws Exception {
         @SuppressWarnings("rawtypes") ResponseEntity<String> entity = this.testRestTemplate.getForEntity(
-                "http://localhost:" + this.port + "/features/", String.class);
+                "http://localhost:" + this.port + "/", String.class);
         then(entity.getStatusCode()).isEqualTo(HttpStatus.OK);
         then(entity.getBody()).isEqualTo("Hi!");
     }
@@ -35,7 +35,7 @@ public class TideTestApplicationTests {
         @SuppressWarnings("rawtypes") ResponseEntity<String> entity = this.testRestTemplate.getForEntity(
                 "http://localhost:" + this.port + "/features/users/", String.class);
         then(entity.getStatusCode()).isEqualTo(HttpStatus.OK);
-        then(entity.getBody()).toString();
+        //then(entity.getBody()).isEqualTo("Hi!");
     }
 
     @Test
