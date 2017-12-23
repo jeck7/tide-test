@@ -58,7 +58,7 @@ public class UserController {
         return "Hi!";
     }
 
-    @RequestMapping(value = "/ribbon")
+    @RequestMapping(value = "/features/ribbon")
     public String hello() {
         return "Hello from a service running at port: " + port + "!";
     }
