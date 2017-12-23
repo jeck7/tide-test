@@ -9,6 +9,8 @@ Tide test aplication - Spring RESTful services!
 
 3. Type `mvn spring-boot:run` from the root directory of the project to run the application.
 
+4. Creat script is also available here:  https://github.com/jeck7/tide-test/blob/master/src/main/resources/tide_demo.sql
+
 <img src="https://github.com/jeck7/tide-test/blob/master/src/main/resources/Screen1.png" width="600" height="400" />
 
 <img src="https://github.com/jeck7/tide-test/blob/master/src/main/resources/Screen2.png" width="600" height="400" />
