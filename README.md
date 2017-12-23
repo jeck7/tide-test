@@ -3,7 +3,7 @@ Tide test aplication - Spring RESTful services!
 
 ## Setup the Application
 
-1. Create a database named `tide_demo`.
+1. Create a database named `tide_demo` in MySQL database.
 
 2. Open `src/main/resources/application.properties` and change `spring.datasource.username` and `spring.datasource.password` properties as per your MySQL installation.
 
