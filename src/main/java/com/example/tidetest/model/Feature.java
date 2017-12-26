@@ -25,6 +25,14 @@ public class Feature implements Serializable {
     @JsonIgnore
     private Set<User> users = new HashSet<>();
 
+    public Feature() {
+    }
+
+    public Feature(Long id, String description) {
+        this.id = id;
+        this.description = description;
+    }
+
     public Long getId() {
         return id;
     }

@@ -40,6 +40,20 @@ public class User implements Serializable {
             inverseJoinColumns = @JoinColumn(name = "feature_id", referencedColumnName = "id"))
     private Set<Feature> features = new HashSet<>();
 
+    public User() {
+    }
+
+    public User(String name, Set<Feature> features) {
+        this.name = name;
+        this.features = features;
+    }
+
+    public User(Long id, String name, Set<Feature> features) {
+        this.id = id;
+        this.name = name;
+        this.features = features;
+    }
+
     public Long getId() {
         return id;
     }
