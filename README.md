@@ -7,7 +7,7 @@ Tide test aplication - Spring RESTful services!
 
 2. Open `src/main/resources/application.properties` and change `spring.datasource.username` and `spring.datasource.password` properties as per your MySQL installation.
 
-3. Creat script for the tables is also available here:  https://github.com/jeck7/tide-test/blob/master/src/main/resources/tide_demo.sql
+3. Creat script for the DB is also available here:  https://github.com/jeck7/tide-test/blob/master/src/main/resources/tide_demo_dump.sql
 
 4. Type `mvn spring-boot:run` from the root directory of the project to run the application.
 
