@@ -24,7 +24,7 @@ import static org.junit.Assert.assertNotNull;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = TideTestApplication.class, webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-public class TideTestApplicationTests {
+public class TideApplicationIntegrationTests {
 
     @LocalServerPort
     private int port;
